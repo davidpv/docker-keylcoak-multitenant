@@ -13,10 +13,13 @@ services:
     environment:
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=admin
+      - KC_HTTP_ENABLED=true
+      - KC_SPI_NONCE_STORE_PROVIDER=disabled
     ports:
       - "8080:8080"
     volumes:
       - ./docker/keycloak/exports:/opt/keycloak/data/import
+      - ./docker/keycloak/themes/multitenant:/opt/keycloak/themes/multitenant
     command: 
       - start-dev
       - --import-realm

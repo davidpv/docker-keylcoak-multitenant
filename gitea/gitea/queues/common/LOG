@@ -4,3 +4,13 @@
 23:35:43.708510 version@stat F·[] S·0B[] Sc·[]
 23:35:43.708978 db@janitor F·2 G·0
 23:35:43.708998 db@open done T·788.895µs
+=============== Oct 8, 2024 (CEST) ===============
+23:57:42.079828 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:57:42.080936 version@stat F·[] S·0B[] Sc·[]
+23:57:42.080956 db@open opening
+23:57:42.081015 journal@recovery F·1
+23:57:42.081100 journal@recovery recovering @1
+23:57:42.082689 memdb@flush created L0@2 N·20 S·457B "iss..igh,v8":"web..low,v13"
+23:57:42.083015 version@stat F·[1] S·457B[457B] Sc·[0.25]
+23:57:42.085754 db@janitor F·3 G·0
+23:57:42.085773 db@open done T·4.807053ms
