@@ -26,7 +26,7 @@ down:
 
 # Stop  all containers
 .PHONY: stop
-down:
+stop:
 	@$(DOCKER_COMPOSE) stop
 
 # Restart all containers
